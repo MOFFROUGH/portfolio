@@ -47,7 +47,7 @@
               <div class="control">
                 <div class="select">
                   <select name="subject">
-                    <option>Select Subject</option>
+                    <option selected>Select Subject</option>
                     <option value="Invoice">Request Invoice</option>
                     <option value="Meeting">Request Meeting</option>
                     <option value="HireMe">Request To Hire Me</option>
@@ -59,19 +59,9 @@
             <div class="field">
               <label class="label">Message</label>
               <div class="control">
-                <textarea class="textarea" placeholder="Your Messages"></textarea>
+                <textarea class="textarea" name="message" placeholder="Your Messages"></textarea>
               </div>
             </div>
-
-            <div class="field">
-              <div class="control">
-                <label class="checkbox">
-                  <input type="checkbox" />
-                  Receive emails on offers form our company
-                </label>
-              </div>
-            </div>
-
             <div class="field is-grouped">
               <div class="control">
                 <button class="button is-link">Submit</button>
