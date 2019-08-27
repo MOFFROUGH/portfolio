@@ -1,94 +1,721 @@
 <template>
-  <section class="section is-medium">
-    <div class="container has-text-centered">
-      <h1 class="title">About Me</h1>
-      <p>My name is Moffat Munene (Moff), I’m a software developer and IOT engineer based in Nairobi, Kenya. I build modern applications for the web and intricate IOT networks!</p>
-      <p>BTW this portfolio is written in Nuxt JS</p>
-      <p>With a strong passion now I have a deep understanding of :</p>
+  <section class="hero is-info is-large">
+    <div class="hero-body">
+    <div class="container">
+      <h1 class="title">About us</h1>
+      <p>Welcome to Moffhub Solutions, Your one stop shop for your website, mobile(IOS and Android), software and IOT needs.</p>
+      <p>Our Primary focus is building resilient, modern and versatile software and web and mobile interfaces that are in sync with your branding concept.</p>
+      <p>We are also keen to promote you SEO ranking , page speed scores and other SEO related stuff.</p>
       <br />
+      <h1 class="title">We Major In...</h1>
       <div class="columns">
         <div class="column">
-          <h1>Web Design</h1>
-          <div class="container is-fluid">
-            <div class="notification">
-              <div class="tile">HTML</div>
-              <div class="tile">CSS</div>
-              <div class="tile">JavaScript</div>
-              <div class="tile">Vue JS</div>
-              <div class="tile">Bootstrap</div>
-            </div>
+          <h1 class="subtitle">Website Design</h1>
+          <div class="box">
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/html.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>HTML5</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img src="https://cdn.worldvectorlogo.com/logos/css3.svg" alt="Image" />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>CSS3</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/js.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>JavaScript</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/vue.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Vue JS</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/boot.jpg"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Bootstrap</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
         <div class="column">
-          <h1>Back End</h1>
-          <div class="container is-fluid">
-            <div class="notification">
-              <div class="tile">Node Express JS</div>
-              <div class="tile">PHP</div>
-              <div class="tile">Laravel</div>
-              <div class="tile">Python</div>
-              <div class="tile">Flask</div>
-            </div>
+          <h1 class="subtitle">BackEnd Design</h1>
+          <div class="box">
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/node.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Node JS</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img src="~/assets/imgs/node.png" alt="Image" />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Express JS</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/php.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>PHP</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/laravel.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Laravel</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/python.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Python</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
         <div class="column">
-          <h1>Databases</h1>
-          <div class="container is-fluid">
-            <div class="notification">
-              <div class="tile">MySQL</div>
-              <div class="tile">SQLite</div>
-              <div class="tile">PostgresSQL</div>
-              <div class="tile">MongoDB</div>
-              <div class="tile">Firebase</div>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <h1>Other Utiliies</h1>
-          <div class="container is-fluid">
-            <div class="notification">
-              <div class="tile">Docker</div>
-              <div class="tile">Dart and Flutter</div>
-              <div class="tile">Rust</div>
-              <div class="tile">Material Design</div>
-            </div>
+          <h1 class="subtitle">Database Design</h1>
+          <div class="box">
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/mysql.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>MySQL</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img src="~/assets/imgs/sqlite.jpg" alt="Image" />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>SQLite</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/postg.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>PostgresSQL</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/mongo.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>MongoDB</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/firebase.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Firebase</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
       </div>
       <br />
       <div class="columns">
         <div class="column">
-          <h1>Controllers</h1>
-          <div class="container is-fluid">
-            <div class="notification">
-              <div class="tile">Atmega</div>
-              <div class="tile">Arduino</div>
-              <div class="tile">Raspberry Pi</div>
-              <div class="tile">PLCs</div>
-            </div>
+          <h1 class="subtitle">Other Utilities We Offer</h1>
+          <div class="box">
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/docker.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Docker</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img src="~/assets/imgs/dart.png" alt="Image" />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Dart Lang</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/flutter.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Flutter</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/rust.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Rust</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/md.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Material Design</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+         <div class="column">
+          <h1 class="subtitle">Other Utilities We Offer</h1>
+          <div class="box">
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/seo.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>SEO</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img src="~/assets/imgs/website.png" alt="Image" />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Website Maintenance</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/app.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Custom Applications</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/mpesa.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Payment Integration (Mpesa,Equity, Paypal)</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/sms.jpg"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Bulk SMS and Email integration</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
         <div class="column">
-          <h1>Communications</h1>
-          <div class="container is-fluid">
-            <div class="notification">
-              <div class="tile">LoRa</div>
-              <div class="tile">ZigBee</div>
-              <div class="tile">SigFox</div>
-              <div class="tile">Bluetooth</div>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <h1>Communications</h1>
-          <div class="container is-fluid">
-            <div class="notification">
-              <div class="tile">NFC</div>
-              <div class="tile">RFID</div>
-            </div>
+          <h1 class="subtitle">Other Utilities We Offer</h1>
+          <div class="box">
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/ussd.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>USSD App development</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img src="~/assets/imgs/plugin.png" alt="Image" />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Plugins development</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/api.jpg"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>API development</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
       </div>
+      <div class="columns">
+        <div class="column">
+          <h1 class="subtitle">Microcontrollers</h1>
+          <div class="box">
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/ard.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Arduino</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img src="~/assets/imgs/atmel.png" alt="Image" />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Atmel</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/pi.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Raspberry Pi</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/plc.jpg"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>PLCs</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/pic.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>PICs</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="column">
+          <h1 class="subtitle">IoT Networks</h1>
+          <div class="box">
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/lora.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>LoRa</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img src="~/assets/imgs/zig.png" alt="Image" />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>ZigBee</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/sig.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>SigFox</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/bt.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Bluetooth,NFC,RFID</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64">
+                  <img
+                    src="~/assets/imgs/gsm.png"
+                    alt="Image"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>GSM, LTE, SMS</strong>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
   </section>
 </template>

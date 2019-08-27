@@ -3,11 +3,11 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'portfolio',
+    title: 'MoffHub Solutions',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
+      { hid: 'description', name: 'description', content: 'MoffHubSolutions is a dedicated web developer and IOT engineer with a vast experience with html,css, laravel, javascript,vue js, python and rust.' }
     ],
     link: [
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css' },
@@ -22,11 +22,16 @@ module.exports = {
   /*
   ** Build configuration
   */
+  css: [
+    // node.js module but we specify the pre-processor
+    { src: 'bulma/bulma.sass', lang: 'sass' },
+    { src: 'font-awesome/scss/font-awesome.scss', lang: 'scss' },
+  ],
   build: {
     /*
     ** Run ESLint on save
     */
-    extend (config, { isDev }) {
+    extend(config, { isDev }) {
       if (isDev) {
         config.module.rules.push({
           enforce: 'pre',
