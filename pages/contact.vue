@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-info is-large">
+  <section class="hero is-success is-large">
     <div class="hero-body">
     <div class="container has-text-centered">
       <h1 class="title">Contact Me</h1>

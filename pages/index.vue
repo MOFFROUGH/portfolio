@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-info is-large">
+  <section class="hero is-success is-large">
     <div class="hero-body">
       <div class="container">
         <h1 class="title">
@@ -10,7 +10,7 @@
         <br />
         <h2 class="subtitle">A Software and IOT Company based in Nairobi, Kenya.</h2>
         <br />
-        <nuxt-link class="button is-success is-rounded" to="/contact">
+        <nuxt-link class="button is-info is-rounded" to="/contact">
           <span class="icon is-small">
             <i class="fa fa-phone"></i>
           </span>
