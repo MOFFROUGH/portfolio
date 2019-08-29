@@ -724,3 +724,20 @@ ul {
   text-align: center;
 }
 </style>
+<script>
+export default {
+  head() {
+    return {
+      title: "About Us - MoffHub Solutions",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "This is a detailed explanation of what moffhub solutions is all about "
+        }
+      ]
+    };
+  }
+};
+</script>

@@ -7,13 +7,13 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'MoffHubSolutions is a dedicated web developer and IOT engineer with a vast experience with html,css, laravel, javascript,vue js, python and rust.' }
+      { hid: 'description', name: 'description', content: 'MoffHubSolutions is a dedicated web development and IOT company with a vast experience with Front end, back end, LoRa, and Communication networks.' }
     ],
     link: [
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
   },
   /*
   ** Customize the progress bar color
