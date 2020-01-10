@@ -1,7 +1,7 @@
 <template>
-  <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-fixed-top is-transparent" id="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <img src="~/assets/imgs/mlogo.png" width="100px" height="100px" />
+      <img src="~/assets/imgs/mlogo.png" width="100px" height="100px"/>
       <h1 class="navbar-item">Moffhub Solutions</h1>
       <a
         role="button"
@@ -11,9 +11,9 @@
         @click="isOpen = !isOpen"
         v-bind:class="{'is-active': isOpen}"
       >
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
+        <span aria-hidden="true"/>
+        <span aria-hidden="true"/>
+        <span aria-hidden="true"/>
       </a>
     </div>
     <div class="navbar-menu" v-bind:class="{'is-active': isOpen}">
@@ -28,11 +28,20 @@
   </nav>
 </template>
 <script>
-export default {
-  data: function() {
-    return {
-      isOpen: false
-    };
-  }
-};
+  export default {
+    data: function () {
+      return {
+        isOpen: false
+      };
+    }
+  };
 </script>
+<style>
+  nav {
+    height: 70px;
+  }
+  nav h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+</style>
