@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar is-fixed-top is-transparent" id="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <img src="~/assets/imgs/mlogo.png" width="100px" height="100px"/>
+      <img src="/imgs/mlogo.png" width="100px" height="100px"/>
       <h1 class="navbar-item">Moffhub Solutions</h1>
       <a
         role="button"

@@ -4,7 +4,7 @@
       <h1 class="title">We are</h1>
       <h1 class="title">Moffhub Solutions</h1>
       <h2 class="subtitle">The Future Now</h2>
-      <img class="image" src="~/assets/imgs/mlogo.png"/>
+      <img class="image" src="/imgs/mlogo.png"/>
     </div>
     <div class="area" >
       <ul class="circles">
